@@ -43,8 +43,8 @@ The project mainly contains the following modules:
 
 1. Create a ROS workspace:
 ```bash
-mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws/src
+mkdir -p ~/catkin_ws
+cd ~/catkin_ws
 ```
 
 2. Clone the project:
@@ -62,7 +62,6 @@ sudo apt-get install ros-$ROS_DISTRO-smach ros-$ROS_DISTRO-smach-ros ros-$ROS_DI
 
 4. Build the workspace:
 ```bash
-cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
 ```
