@@ -41,18 +41,7 @@ The project mainly contains the following modules:
 
 ## Installation Steps
 
-1. Create a ROS workspace:
-```bash
-mkdir -p ~/catkin_ws
-cd ~/catkin_ws
-```
-
-2. Clone the project:
-```bash
-git clone https://github.com/nihaozhan/ME5413_Final_Project_Group12.git
-```
-
-3. Install dependencies:
+1. Install dependencies:
 ```bash
 sudo apt-get update
 sudo apt-get install python3-opencv python-numpy tesseract-ocr libtesseract-dev
@@ -60,8 +49,14 @@ pip install pytesseract scikit-learn
 sudo apt-get install ros-$ROS_DISTRO-smach ros-$ROS_DISTRO-smach-ros ros-$ROS_DISTRO-explore-lite ros-$ROS_DISTRO-teleop-twist-keyboard ros-$ROS_DISTRO-gmapping ros-$ROS_DISTRO-move-base ros-noetic-teb-local-planner ros-noetic-navigation
 ```
 
-4. Build the workspace:
+2. Clone the project:
 ```bash
+git clone https://github.com/nihaozhan/ME5413_Final_Project_Group12.git
+```
+
+3. Compile:
+```bash
+cd ME5413_Final_Project_Group12
 catkin_make
 source devel/setup.bash
 ```
