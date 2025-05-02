@@ -49,7 +49,7 @@ cd ~/catkin_ws
 
 2. Clone the project:
 ```bash
-git clone https://github.com/CANLAN-SC/ME5413_Final_Project_Group12.git
+git clone https://github.com/nihaozhan/ME5413_Final_Project_Group12.git
 ```
 
 3. Install dependencies:
